@@ -1,0 +1,68 @@
+.pay{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0,0,0,0.9) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+.paybox{
+    width: 700px;
+    height: 500px;
+    background: #013D47;
+    display: flex;
+    justify-content: center;
+}
+.paybox1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 45%;
+    height: 100%;
+}
+.paybox2{
+    width: 55%;
+    height: 550px;
+    background-color: #fff;
+    border: 1px solid black;
+    margin-top: -25px;
+}
+.containpay{
+    width: 80%;
+    height: 90%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 15px;
+    margin-top: 40px;
+    align-items: flex-start;
+}
+.tot{
+    display: flex;
+    flex-direction: column;
+    height: 5px;
+    width: 100%;
+}
+.tot div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -20px;
+}
+.tot div p{
+    font-size: 14px;
+    font-weight:lighter;
+}
+
+.linew{
+    width: 100%;
+    height: 1px;
+    background:rgb(255, 255, 255);
+    margin-top: 100px;
+}
+.lineup p{
+    text-align:left;
+    font-weight:lighter;
+}
